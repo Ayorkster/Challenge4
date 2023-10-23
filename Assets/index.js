@@ -28,6 +28,37 @@ var questions = [
         answerNumber: 2,
         answer: "1d8",
     },
+    {
+        question: "At what level do Rogues pick their subclass?",
+        options: ["1", "2", "3", "4"],
+        answerNumber: 2,
+        answer: "3",
+    },{
+        question: "which is not an free action?",
+        options: ["Talk", "Attack", "Draw a Weapon", "Interact with an object"],
+        answerNumber: 1,
+        answer: "Attack",
+    },{
+        question: "What does flanking give you per the PHB?",
+        options: ["+2 to attack", "nothing", "An extra attack", "advantage on the Attack"],
+        answerNumber: 3,
+        answer: "advantage on the attack",
+    },{
+        question: "Which class is not considered a 'full caster'?",
+        options: ["Ranger", "Wizard", "Warlock", "Scorcerer"],
+        answerNumber: 0,
+        answer: "Ranger",
+    },{
+        question: "what are a Barbarian's main stats?",
+        options: ["Cha + Wis", "Int + Str", "Str + Con", "Dex + Cha"],
+        answerNumber: 2,
+        answer: "Str + Con",
+    },{
+        question: "What die do you use the most?",
+        options: ["d4", "d100", "d10", "d20"],
+        answerNumber: 3,
+        answer: "d20",
+    },
 ];
 var answerButton = document.getElementsByClassName("answerChoice");
 var correctAnswer = 0;

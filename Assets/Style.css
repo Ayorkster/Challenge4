@@ -1,0 +1,27 @@
+body{
+    background-color: darkblue;
+}
+#score{
+    background-color: lightblue;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 2px rgb(255, 219, 129);
+    border-radius: 20px;
+
+}
+#show{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+button{
+    background-color: rgb(33, 173, 178);
+    outline: none;
+    font-weight: bolder;
+    color: gold;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+
+}
